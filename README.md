@@ -40,9 +40,7 @@ Thanks to [Pimoroni](https://github.com/pimoroni) for their work on the original
 
 4. **Создать виртуальное окружение с системными пакетами (для доступа к `wiringOP`)**  
    ```bash
-   python3 -m venv --system-site-packages devenv
-   source devenv/bin/activate
-   pip install -r requirements.txt
+   python3 -m venv --system-site-packages devenv 
    ```
 
 ---
@@ -71,9 +69,7 @@ Thanks to [Pimoroni](https://github.com/pimoroni) for their work on the original
     ```
 4. **Create Python 3 virtual environment with access to system packages (`wiringOP` support)**  
    ```bash
-   python3 -m venv --system-site-packages devenv
-   source devenv/bin/activate
-   pip install numpy spidev pillow
+   python3 -m venv --system-site-packages devenv 
    ```
 
 --- 
@@ -191,8 +187,10 @@ cp st7789.py examples/ /path/to/your/devenv
 
 **Kamnetanker**  
 🇷🇺 kamnetanker3@gmail.com  
-🔗 https://github.com/kamnetanker/container_template
+🔗 https://github.com/kamnetanker/orangepi_ST7789
 
+> Если в инструкции обнаружите ошибку - напишите на почту, я исправлю или отправьте pull request.  
+> If u will find mistake - write to email and I will fix it here. Or create pull request.  
 > **Без гарантий**.  
 > Этот проект обновляется и поддерживается по моему собственному желанию и в свободное время.  
 > Используйте внося изменения под ваши задачи.
