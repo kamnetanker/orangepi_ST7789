@@ -8,11 +8,11 @@ from PIL import Image
 from PIL import ImageDraw
 from PIL import ImageFont
 
-from OrangePi_ST7789 import ST7789
+from st7789 import ST7789
 
 SPI_PORT = 0
-SPI_CS = 0
-SPI_DC = 27    # PA0
+SPI_CS = 1
+SPI_DC = 19   # PA0
 SPI_RES = 17   # PA1
 BACKLIGHT = 20 # PA3
 

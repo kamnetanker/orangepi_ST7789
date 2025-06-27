@@ -5,7 +5,7 @@ import sys
 
 from PIL import Image
 from PIL import ImageDraw
-from OrangePi_ST7789 import ST7789
+from st7789 import ST7789
 
 SPI_PORT = 0
 SPI_CS = 0
