@@ -1,4 +1,4 @@
-# Orange Pi ST7789 library
+# Orange Pi ST7789 Python3 library
 
 ## 🙏 Благодарности / Acknowledgements
 
